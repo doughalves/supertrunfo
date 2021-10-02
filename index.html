@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>
+      SUPER TRUNFO - Pokémon
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt="">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1200px-International_Pokémon_logo.svg.png" class="page-logo2" alt="">
+      <h1 class="page-title">SUPER TRUNFO - POKÉMON</h1><br>
+      <div class="page-subtitle"><p>PRIMEIRA GERAÇÃO - a única que importa 😁</p></div>
+      <div class="tabuleiro">
+        <div class="col_out">
+          <div class="row">
+            <div class="coluna">
+              <table align="center">
+                <tr>
+                  <th colspan="3">
+                    <h2>&nbsp&nbspPLACAR&nbsp&nbsp</h2>
+                  </th><br>
+                </tr>
+                <tbody>
+                  <tr>
+                    <td colspan="3">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>VOCÊ</td>
+                    <td></td>
+                    <td>PC</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div id="placar0"></div>
+                    </td>
+                    <td>x</td>
+                    <td>
+                      <div id="placar1"></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="coluna">
+              <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button><br>
+              <button onclick="zerarJogo()" id="btnZerar">Zerar Jogo</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col_meio">
+        <form id="form">
+          <h2>&nbspEscolha o seu atributo&nbsp</h2>
+          <div class="wrapper">
+            <div>
+              <div id="carta-jogador">
+                <!-- <imagem do verso da carta aqui> -->
+                <h3></h3>
+              </div>
+            </div>
+            <div>
+              <div id="carta-maquina" class="carta">
+                <!--<imagem do verso da carta aqui> -->
+              </div>
+            </div>
+          </div>
+          <div id="botao-jogar"></div>
+          <div id="resultado"></div>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+  <footer>
+    <div class="rodape">
+      Creditos: <br>
+      Imagens das cartas: Deviantart <a href="https://www.deviantart.com/maskadra42">maskadra42</a><br>
+      Stats e imagens dos pokemons retirados da <a href="https://pokemondb.net/pokedex/stats/gen1">Pokedex no site pokemondb.net</a><br>
+    </div>
+  </footer>
+</html>
