@@ -140,7 +140,7 @@ h2 {
   color: white;
   font-size: 2rem;
   text-transform: uppercase;
-  font-weigth: bolder;
+  font: bolder;
   padding: 0.75rem;
   margin: 0 10px 10px;
   border: 2px solid black;
@@ -177,6 +177,8 @@ form {
 }
 
 .carta-subtitle {
+  max-height: 15px;
+  background-color: gray;
   color: white;
   z-index: 2;
   position: absolute;
